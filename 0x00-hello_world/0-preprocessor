@@ -1,2 +1,2 @@
 #!/bin/bash
-export CFILE=main.c | gcc -Wall main.c -o c -lm |tr ' ' '\n'
+gcc -E main.c > c
