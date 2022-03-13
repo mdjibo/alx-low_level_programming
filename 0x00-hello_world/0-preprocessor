@@ -1,2 +1,2 @@
 #!/bin/bash
-cat $CFILE> c |  tr ' ' '\n'
+CFILE="main.c" | gcc main.c -o c |tr ' ' '\n'
