@@ -1,8 +1,11 @@
 #include"main.h"
 #include<stdio.h>
-/*Using system to print string*/
+/**
+ * print string without using printf
+ *Using our own header
+ */
 int main(void)
 {
-	puts ("_putchar");
+	puts("_putchar");
 	return (0);
 }
