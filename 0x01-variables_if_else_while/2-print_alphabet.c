@@ -1,20 +1,23 @@
 #include <stdio.h>
-#include <ctype.h>
 /* more headers goes there */
 
 /**
- * Function main description
+ * main - Program entry point
+ *
+ * Return: 0 on success. Error code otherwise
  */
 int main(void)
 
 {
-	char x;
+	char a = 'a';
+	int n = 0;
 
-		for (x = 'A'; x <= 'z'; x++)
+		while (n < 26)
 		{
-			x = tolower(x);
-			putchar(x);
+			putchar(a);
+			a++;
+			n++;
 		}
-	/* your code goes there */
+	putchar('\n');
 	return (0);
 }
